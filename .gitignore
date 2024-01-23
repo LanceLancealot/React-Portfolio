@@ -1,1 +1,31 @@
-node_modules
+# Dependency directories
+node_modules/
+
+# Output directories
+build/
+dist/
+
+# IDE and text editor files
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file
+.env
+
+# Cache directories
+.cache/
+
+# Editor configuration
+.editorconfig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Vite cache
+.vite/
