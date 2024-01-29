@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "Your project description here",
-  "main": "index.js",
+  "main": "src/index.jsx",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
