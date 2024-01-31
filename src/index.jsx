@@ -1,8 +1,13 @@
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import{BrowserRouter} from "react-router-dom";
+import render from "react-dom";
 
-
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
-
+ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+  )
 
