@@ -1,0 +1,83 @@
+* {
+  background-color: #1d1f25;
+  color: #BCBFC6;
+}
+#about-me {
+    background-color: #242831; /* Dark mode background color */
+    color: #BCBFC6; /* Dark mode text color */
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid #333743; /* Dark mode border color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+  }
+  
+  .flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-info {
+    max-width: 800px;
+  }
+
+  .text-styling{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-img img {
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+    size-adjust: 25%;
+    margin: 0 auto; 
+    display: block; 
+  }
+  
+  .intro-info p {
+    margin-bottom: 20px;
+  }
+  nav {
+    background-color: #333743; /* Dark mode background color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #BCBFC6; /* Dark mode text color */
+    padding: 10px;
+    margin: 0 5px;
+    display: inline-flex;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    background-color: #646cff;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project img {
+    max-width: 500px; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Optional: Add some bottom margin for spacing */
+    display: block;
+    align-items: center;
+  }
+

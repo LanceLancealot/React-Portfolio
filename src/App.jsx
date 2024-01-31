@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React, { useState } from 'react';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import { Helmet } from 'react-helmet';
+import Nav from './components/Nav/Nav';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -26,18 +26,16 @@ function App() {
         }
         return <About />;
     };
+
     return (
         <>
             <Helmet>
                 <title>Maxfield Kraus' Portfolio | {currentTab} </title>
             </Helmet>
-            <Header 
-                currentTab={currentTab} handleTabChange={handleTabChange}>  
-            </Header>
-            <main>
-                {renderTab()}
-            </main>
-            <Footer></Footer>
+            
+            <Nav handleTabChange={handleTabChange} />
+            {renderTab()}
+            <Footer />
         </>
     );
 }
